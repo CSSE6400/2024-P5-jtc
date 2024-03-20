@@ -13,6 +13,7 @@ provider "aws" {
 }
 
 locals {
+    image = "ghcr.io/csse6400/taskoverflow:latest"
     database_username = "administrator"
     database_password = "foobarbaz" # this is bad
 }
